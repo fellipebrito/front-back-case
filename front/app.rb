@@ -6,7 +6,8 @@ class App < Sinatra::Base
   register Sinatra::Reloader
   set :public_folder, File.dirname(__FILE__) + '/public'
 
-  get '/' do
+  get '/.?:url?' do
+    @url = params[:url]
     erb :index
   end
 end
