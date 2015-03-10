@@ -4,6 +4,7 @@ We have two sample sinatra projects here:
 
 Executing:
 ```
-./bin run.sh # starts both servers
+./bin run.sh # starts multiple page application and backend servers
+./bin spa.sh # starts Single Page Application (SPA) and backend servers
 ./bin hasta_la_vista.sh # it is a monster and heartless script that kills every unicorn you have running
 ```
